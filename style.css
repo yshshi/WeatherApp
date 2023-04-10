@@ -29,3 +29,19 @@ body{
 .heading{
     font-size: 2rem;
 }
+@media (max-width: 870px) {
+    .container{
+        min-height: 30px;
+        height: 100vh;
+        margin-left: 260px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 570px) {
+    .container{
+        min-height: 20px;
+        height: 100vh;
+        margin-left: 180px;
+        margin-top: 0px;
+    }
+}
