@@ -29,19 +29,32 @@ body{
 .heading{
     font-size: 2rem;
 }
-@media (max-width: 870px) {
+@media (max-width: 1440px) {
     .container{
-        min-height: 30px;
-        height: 100vh;
-        margin-left: 260px;
-        margin-top: 0px;
+        height: 78vh;
+        margin-left: 500px;
     }
 }
-@media (max-width: 570px) {
+
+@media (max-width: 1024px) {
     .container{
-        min-height: 20px;
-        height: 100vh;
-        margin-left: 280px;
-        margin-top: 0px;
+        margin-left: 350px;
+        height: 78vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-left: 240px;
+        margin-top: 50px;
+        margin-bottom: 44px;
+        height: 85vh;
+    }
+}
+@media (max-width: 425px) {
+    .container{
+        margin-left: 60px;
+        width: 65%;
+        height: 78vh;
     }
 }
